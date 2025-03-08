@@ -1,6 +1,6 @@
 import {describe,test,expect} from '@jest/globals'
-import { render } from '@testing-library/react'
-import { GitExpertApp } from '../src/GifExpertApp'
+import { render,screen } from '@testing-library/react'
+import { GifExpertApp } from '../src/GifExpertApp'
 
 
 describe('Pruebas en <GifExpertApp/>', () => {
