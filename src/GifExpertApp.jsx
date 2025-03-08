@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { AddCategory, GridGif } from './components'
 
-export const GitExpertApp = () => {
+export const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['One Punch'])
 
