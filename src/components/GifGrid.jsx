@@ -9,7 +9,7 @@ export const GifGrid = ({ category='undefined' }) => {
 
     return (
         <>
-            <h3>{category}</h3>
+            <h3 aria-label='category-title'>{category}</h3>
             {
                 // isLoading
                 // ?(<h2>Cargando...</h2>)
